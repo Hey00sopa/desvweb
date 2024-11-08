@@ -1,0 +1,19 @@
+const express=require("express");
+const app=express();
+app.get('discente',function(req,res){
+res.send('aluno')
+})
+
+app.post('doscente',function(req,res){
+    res.send('professor')
+    })
+
+app.delete('curso',function(req,res){
+    res.send('curso')
+})
+
+app.put('sla',function(req,res){
+    res.send('abu')
+})
+
+app.listen(8000);
